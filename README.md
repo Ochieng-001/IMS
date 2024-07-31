@@ -1,29 +1,33 @@
 Inventory Management System
-Overview
-The Inventory Management System is a simple console-based application written in C++. It allows users to manage an inventory of items, including adding, removing, searching, displaying, and saving items to a file. The system is designed to be straightforward and easy to use, making it suitable for small-scale inventory management tasks.
+# Inventory Management System
 
-Features
-Add Item: Add new items to the inventory with specified name, quantity, and price.
-Remove Item: Remove existing items from the inventory by name.
-Search Item: Search for an item in the inventory by name to view its details.
-Display Inventory: Display all items in the inventory along with their details.
-Save Inventory: Save the current state of the inventory to a file for future use.
-Load Inventory: Load inventory data from a file at the start of the program.
-How It Works
-1. Adding an Item
-Users can add an item to the inventory by specifying the item's name, quantity, and price. The item is then stored in the inventory list.
+## Overview
 
-2. Removing an Item
-Users can remove an item from the inventory by specifying the item's name. If the item exists, it is removed; otherwise, the system notifies the user that the item was not found.
+Welcome to the **Inventory Management System**! This is a simple console-based application written in C++ that helps you manage an inventory of items efficiently. With this system, you can add, remove, search, display, and save items to a file. Perfect for small-scale inventory management needs.
 
-3. Searching for an Item
-Users can search for an item by name to view its details (quantity and price). If the item exists, its details are displayed; otherwise, the system notifies the user that the item was not found.
+## Features
 
-4. Displaying the Inventory
-Users can display all the items currently in the inventory. Each item's name, quantity, and price are shown.
+- **Add Item**: Insert new items with name, quantity, and price.
+- **Remove Item**: Delete items from the inventory by name.
+- **Search Item**: Look up items by name and view their details.
+- **Display Inventory**: List all items in the inventory with their details.
+- **Save Inventory**: Save the current inventory to a file for future use.
+- **Load Inventory**: Automatically load inventory data from a file when the program starts.
 
-5. Saving the Inventory
-When the user chooses to exit the system, the current state of the inventory is saved to a file (`inventory.txt`) so that it can be reloaded the next time the program runs
+## Getting Started
+
+### Prerequisites
+
+- A C++ compiler (e.g., GCC, Clang, or MSVC)
+- A text editor or IDE (e.g., Visual Studio Code, CLion)
+
+### Cloning the Repository
+
+To get a copy of the project, clone it using Git:
+
+```bash
+git clone https://github.com/Ochieng-001/IMS.git
+
 
 Code Structure
 Item Structure: Represents an item with attributes like `name`, `quantity`, and `price`.
