@@ -25,7 +25,7 @@ Welcome to the **Inventory Management System**! This is a simple console-based a
 
 To get a copy of the project, clone it using Git:
 
-```bash```
+```bash
 git clone https://github.com/Ochieng-001/IMS.git
 
 
@@ -74,10 +74,10 @@ Push to the branch (git push origin feature-branch).
 Open a pull request.
 Suggestions and improvements are highly appreciated!
 
-###📝 License
+📝 License
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 
-###📧 Contact
+📧 Contact
 Have questions? Feel free to reach out:
 
 GitHub: Ochieng-001
